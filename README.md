@@ -1,5 +1,6 @@
 # Project 5: Trip Animation GUI
 
+![Screenshot 5](screenshots/screenshot5.png)
 This guide will walk you through building the required map-animation application using Java Swing and JMapViewer.
 
 ## Prerequisites
