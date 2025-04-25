@@ -106,38 +106,27 @@ timer.start();
 
 ## How to Add JMapViewer to Your Eclipse Project
 
-### Step 1: Right-click your project and open build path settings
-![screenshot1.png](screenshots/screenshot1.png)
-
-### Step 2: In the Libraries tab, click 'Add JARs...' and select the JAR from your lib folder
-![screenshot2.png](screenshots/screenshot2.png)
-
-### Step 3: Confirm it appears under Classpath
-![screenshot3.png](screenshots/screenshot3.png)
-
-### Step 4: Confirm it shows in the Project Explorer under Referenced Libraries
-![screenshot4.png](screenshots/screenshot4.png)
-
 Follow these steps to properly add `jmapviewer-2.24.jar` to your Eclipse project.
 
 ### Step 1: Create a `lib` Folder
-- In your project root (e.g., `Project_5_Template/`), create a new folder called `lib` if it doesn’t already exist.
+- In your project root (e.g., `cs2334sp23project5`), create a new folder called `lib` if it doesn’t already exist.
 - Place your `jmapviewer-2.24.jar` file into this `lib` folder.
 
 ### Step 2: Add the JAR to the Build Path
 1. In Eclipse, right-click the project name in the Project Explorer.
-2. Navigate to `Build Path → Configure Build Path…`  
    ![Screenshot 1](screenshots/screenshot1.png)
-3. Go to the `Libraries` tab and click `Add JARs…`  
-   ![Screenshot 2](screenshots/screenshot2.png)
+2. Navigate to `Build Path → Configure Build Path…`  
+   ![Screenshot 2](screenshots/screenshot2.png)   
+3. Go to the `Libraries → Classpath` tab and click `Add JARs…`  
+   ![Screenshot 3](screenshots/screenshot3.png)
 4. Navigate to the `lib` folder inside your project and select `jmapviewer-2.24.jar`
+   ![Screenshot 4](screenshots/screenshot4.png)
 5. Click `OK`, then click `Apply and Close`
 
 ### Step 3: Confirm the Classpath
 - You should now see `jmapviewer-2.24.jar` listed under `Classpath` in the Build Path window  
-  ![Screenshot 3](screenshots/screenshot3.png)
+
 - You should also see it listed under `Referenced Libraries` in the Project Explorer  
-  ![Screenshot 4](screenshots/screenshot4.png)
 
 ### Step 4: Remove `module-info.java` (if present)
 If your project has a file named `module-info.java`, delete it. This file is not required and can interfere with importing external libraries like JMapViewer.
