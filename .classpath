@@ -6,6 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="lib" path="lib/jmapviewer-2.24.jar"/>
+	<classpathentry kind="lib" path="lib/hutizaki-fat.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
